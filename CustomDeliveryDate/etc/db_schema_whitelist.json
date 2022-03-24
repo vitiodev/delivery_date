@@ -1,0 +1,18 @@
+{
+    "sales_order": {
+        "column": {
+            "custom_delivery_date": true
+        },
+        "index": {
+            "SALES_ORDER_CUSTOM_DELIVERY_DATE": true
+        }
+    },
+    "sales_order_grid": {
+        "column": {
+            "custom_delivery_date": true
+        },
+        "index": {
+            "SALES_ORDER_GRID_CUSTOM_DELIVERY_DATE": true
+        }
+    }
+}

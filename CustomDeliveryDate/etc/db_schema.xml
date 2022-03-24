@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order">
+        <column xsi:type="datetime" name="custom_delivery_date" default="0"/>
+        <index referenceId="SALES_ORDER_CUSTOM_DELIVERY_DATE" indexType="btree">
+            <column name="custom_delivery_date"/>
+        </index>
+    </table>
+    <table name="sales_order_grid">
+        <column xsi:type="datetime" name="custom_delivery_date" default="0"/>
+        <index referenceId="SALES_ORDER_GRID_CUSTOM_DELIVERY_DATE" indexType="btree">
+            <column name="custom_delivery_date"/>
+        </index>
+    </table>
+</schema>

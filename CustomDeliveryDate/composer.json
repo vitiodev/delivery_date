@@ -1,0 +1,21 @@
+{
+  "name": "overdose/custom-delivery-date",
+  "version": "1.0.0",
+  "description": "Add custom delivery date to order",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-sales": "103.0.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Overdose\\CustomDeliveryDate\\": ""
+    }
+  }
+}
